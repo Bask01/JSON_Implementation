@@ -1,0 +1,27 @@
+/* Intro-WithSpecialChars*/
+
+body {font-size: 1em;}
+
+.gridArea {
+	display: grid;
+	grid-template-columns: 1fr 4fr 1fr;
+	grid-template-areas: 
+		"header header header"
+		"linkLeft tableData linkRight"
+	;
+	gap: 5px; 
+	place-items: center;
+}
+th { padding: 7px; margin: 5px; color: grey; font-weight: bold;}
+td {padding: 7px; margin: 5px; color: teal;}
+
+header {grid-area: header; text-align: center;}
+.linkLeft {grid-area: linkLeft;}
+.linkRight {grid-area: linkRight;}
+.tableData {grid-area: tableData;}
+
+img {width: 75px;}
+
+button {padding: 10px; border-radius: 10px;}
+
+h3, h4 {margin-bottom: 0px; text-align: center; }

@@ -1,0 +1,47 @@
+{
+"students": 
+{
+	"studentRec": [ 
+	{
+		"name" : "Jane Doe",
+		"student-number" : 991111222,
+		"program" : "Computer Programmer",
+		"coop" : false,
+		"email" : ["jane@sheridan", "doe@gmail"]
+	},
+	{
+		"name" : "John Doe",
+		"student-number" : 991333444,
+		"program" : "Systems Analyst",
+		"coop" : true,
+		"email" : ["john@sheridan", "doej@gmail"]
+	},
+	{
+		"name" : "Sally Sue",
+		"student-number" : 991555666,
+		"program" : "Software Development",
+		"coop" : true,
+		"email" : ["sally@sheridan", "sue@gmail", "ss@hotmail"]
+	}
+	]
+},
+"faculty" : 
+{
+	"facultyRecs" : [
+	{
+		"name" : "Prof Jones",
+		"faculty-number" : 12345,
+		"school" : "FAST",
+		"full-time" : true,
+		"email" : ["jjones@sheridan", "jones@gmail"]
+	},
+	{
+		"name" : "Prof Smith",
+		"faculty-number" : 23456,
+		"school" : "FAST",
+		"full-time" : false,
+		"email" : ["jsmith@sheridan", "smith@gmail"]
+	}	
+	]
+}
+}
